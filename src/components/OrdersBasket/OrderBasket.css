@@ -1,0 +1,41 @@
+.orderContainer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menuContainer {
+    width:50%;
+
+}
+.basketContainer{
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+.icon{
+    padding-top: 10px;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid rgb(123, 73, 170);
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+    padding: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: rgb(190, 162, 209);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor:pointer;
+     list-style: none;
+     font-size:14px ;
+
+}
+
+.basketContainer span {
+    display: flex;
+}
+
